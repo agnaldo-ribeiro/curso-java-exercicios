@@ -34,11 +34,10 @@ public class Program {
 			}
 		}
 		
-		avg /= pares;
-		
 		if (avg == 0.0) {
 			System.out.print("NENHUM NUMERO PAR");
 		} else {
+			avg /= pares;
 			System.out.printf("MEDIA DOS PARES = %.2f", avg);
 		}
 		
